@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(257.94deg, #027bc0 18.65%, #004b76 86.55%);
+  font-family: "Roboto", sans-serif;
+}
+.containerCurriculum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.containerTitulo {
+  font-size: 48px;
+  color: white;
+}
+
+.containerInformacion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerInformacionElemento {
+    width: 400px;
+  background-color: #00121c;
+  color: white;
+  display: flex;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 10px 10px 21px 7px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 10px 10px 21px 7px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 10px 10px 21px 7px rgba(0, 0, 0, 0.24);
+}
+
+.infoNegrita {
+  font-weight: bold;
+}
+
+.containerIconos{
+    display: flex;
+    gap: 80px;
+}
+
+.imagenIcono{
+    cursor: pointer;
+    width: 120px;
+}
+
+.imagenIcono:hover{
+    background-color: #00121c;
+    border-radius: 8px;
+}

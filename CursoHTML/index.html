@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./index.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV</title>
+  </head>
+
+  <body>
+    <div class="containerCurriculum">
+      <div class="containerTitulo">
+        <span>Curruculum Vitae de</span>
+        <span id="nombreCompleto"></span>
+      </div>
+      <div class="containerIconos">
+        <img class="imagenIcono" src="./img/perfil.png" id="mostrarPerfil" />
+        <img
+          class="imagenIcono"
+          src="./img/smartphone.png"
+          id="mostrarContacto"
+        />
+        <img
+          class="imagenIcono"
+          src="./img/montana.png"
+          id="mostrarDireccion"
+        />
+      </div>
+      <div class="containerInformacion">
+        <!-- elementos -->
+        <div class="containerInformacion" id="grupoPerfil">
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Nombre Completo: </span>
+            <span id="nombreCompletoPerfil"></span>
+          </div>
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Fecha Nacimiento: </span>
+            <span id="fechaNacimientoPerfil"></span>
+          </div>
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Edad: </span>
+            <span id="edad"></span>
+          </div>
+        </div>
+        <div class="containerInformacion" id="grupoDireccion">
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Dirección: </span>
+            <span id="direccionCompleta"></span>
+          </div>
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Ciudad: </span>
+            <span id="ciudad"></span>
+          </div>
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Estado: </span>
+            <span id="estado"></span>
+          </div>
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Pais: </span>
+            <span id="pais"></span>
+          </div>
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Codigo postal: </span>
+            <span id="codigoPostal"></span>
+          </div>
+        </div>
+        <div class="containerInformacion" id="grupoContacto">
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Email: </span>
+            <span id="email"></span>
+          </div>
+          <div class="containerInformacionElemento">
+            <span class="infoNegrita">Celular: </span>
+            <span id="telefonoCelular"></span>
+          </div>
+        </div>
+        <!-- elementos fin -->
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./jquery.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</html>
